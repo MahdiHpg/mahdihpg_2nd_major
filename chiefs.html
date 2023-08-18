@@ -1,0 +1,1519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://v1.fontapi.ir/css/Yekan" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./css/bootstrap-rtl.min.css" rel="stylesheet" type="text/css">
+    <link href="./css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="./chiefs.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/e58af501a2.js" crossorigin="anonymous"></script>
+    <title>سایت آشپزی من</title>
+</head>
+<body>
+<header id="nav-top">
+    <div class="container">
+        <div>
+            <div id="nav-sec1" class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-xs-12" style="float: left;">
+                <ul style="float: left;">
+                    <li><a href="./OrderGuide">چگونه سفارش غذا دهم؟!</a></li>
+                    <li><a href="#">ورود/ثبت نام</a></li>
+                </ul>
+            </div>
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-xs-2">
+                <a class="navbar-brand" href="./index">
+                    <a class="navbar-brand" href="./index">
+                        <a href="./index"><img id="img-logo" src="./images/logo-nav.png"></a>
+                    </a>
+                </a>
+            </div>
+            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-xs-12">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation"
+                                style="position: absolute; left: 0px; top: -60px; ">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent"
+                             style="direction: ltr; margin: 0 !important;">
+                            <ul id="nav-sec2" class="navbar-nav mb-lg-0" style="float: none;">
+                                <li class="nav-item">
+                                    <a class="nav-link nav-sec2_lg nav-sec2_md nav-sec2_sm" href="chiefs">
+                                        آشپزها
+                                     </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-sec2_lg nav-sec2_md nav-sec2_sm" href="FoodOrderPage">
+                                        سفارش غذا
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-sec2_lg nav-sec2_md nav-sec2_sm" href="index">
+                                        صفحه اصلی
+                                    </a>
+                                </li>
+                                <li id="li-custom-nav" class="nav-item">
+                                    <a class="nav-link nav-sec2_lg nav-sec2_md nav-sec2_sm" href="#!">
+                                        <span class="fas fa-history"> 09991234567</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section id="sec2" class="pb-2">
+        <div class="container">
+            <div class="sec2_style">
+                <div id="sec2-right" class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-xs-6 pt-3">
+                    <p>
+                        <small><b>محمد محمدی: </b><small>سفارش پاناکوتای شکلاتی شما ثبت شد | دوشنبه ۱۴۰۰/۰۷/۳۰ ساعت
+                            ۲۱:۰۴</small></small>
+                    </p>
+                </div>
+                <div id="sec2-left" class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-6 pt-3"
+                     style="float: left; text-align: left;">
+                    <span class="fas fa-sticky-note"><small> امروز دوشنبه ۱۴۰۰/۰۷/۳۰</small></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec3" class="pb-2">
+        <div class="container">
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <div id="ostan-part" class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12"
+                     style="margin-right: -25px;">
+                    <input type="text" placeholder="استان">
+                    <span><img src="images/city.svg"></span>
+                </div>
+                <div id="city-part" class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12" style="margin-right: -25px;">
+                    <input type="text" placeholder="شهر">
+                    <span><img src="images/city.svg"></span>
+                </div>
+                <div id="mahalle-part" class="col-xl-4 col-lg-5 col-md-4 col-sm-12 col-xs-12"
+                     style="margin-right: -25px;">
+                    <input type="text" placeholder="محله">
+                    <span><img src="images/street.svg"></span>
+                </div>
+            </div>
+            <div id="btn-part" class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12" style="margin-right: -45px;">
+                <button type="button" class="btn btnSearch-img btn-search-local"
+                        style="float: right; background-color: #FF0000; transition: .5s all ease; color: #fff;">جستجو
+                </button>
+                <button type="button" class="btn btn-chiefs-close"
+                        style="float: left; margin-left: -10px; background-color: #009933; transition: .5s all ease; color: #fff;">
+                    شف های اطراف من
+                </button>
+            </div>
+
+        </div>
+    </section>
+    <section id="sec4" class="p-3">
+        <div class="container">
+            <div class="show-order-by-style">
+                <ul class="p-3">
+                    <li class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 m-lg-2 pt-2">
+                        <p>ترتیب نمایش شف‌ها:</p>
+                    </li>
+                    <li class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 m-lg-2">
+                        <button class="btn btn-outline-danger">بالاترین امتیاز</button>
+                    </li>
+                    <li class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 m-lg-2">
+                        <button class="btn btn-outline-danger">بیشترین فروش</button>
+                    </li>
+                    <li class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 m-lg-2">
+                        <button class="btn btn-outline-danger">متنوع ترین منو</button>
+                    </li>
+                    <li class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 m-lg-2">
+                        <button class="btn btn-outline-danger">ارزان ترین منو</button>
+                    </li>
+                    <li class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 m-lg-2">
+                        <button class="btn btn-outline-danger">نزدیک ترین به من</button>
+                    </li>
+                </ul>
+                <div class="line-dot"></div>
+                <div style="text-align: center; color: red; width: 100%; padding: 15px 0 0 0;">
+                    <p>لیست شف‌ها از بالاترین امتیاز به پایین ترین امتیاز</p>
+                </div>
+            </div>
+            <div class="row" style="float: right; width: 100%; height: auto; margin: 0 -30px 0 0;">
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-5 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-5 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-5 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-4 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-3 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/DefaultImages/60 x 60.svg" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-3 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-3 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-6 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-6 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-6 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-6 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-6 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-6 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-6 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-6 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-6 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-6 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-6 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-6 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-6 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-6 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-6 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-6 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-6 mt-4" style="float: right; text-align: center">
+                    <div class="card myCustom-cards" style="width: 13rem;">
+                        <a href="#" class="" style="height: 128px !important;"><img src="images/DefaultImages/207 x 128.svg" class="" style="width: 100%; height: 128px;"></a>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <img src="images/chief_pic.png" class="rounded-circle chiefs_pic">
+                                <a href="#" style="text-decoration: none; display: inline-flex;"><h6 class="card-title">آشپز اول</h6></a>
+                                <div class="wrap">
+                                    <span class="selected-rating"><small></small></span>
+                                    <div class="stars">
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star1" value="star1">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star one-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star2" value="star2">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star two-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star3" value="star3">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star three-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star4" value="star4">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star four-star"></i>
+                                        </label>
+                                        <label class="rate">
+                                            <input type="radio" name="radio1" class="star5" value="star5">
+                                            <div class="face"></div>
+                                            <i class="far fa-star star five-star"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p class="card-avg-price"><small>میانگین قیمت: ۰ تومان</small></p>
+                                <a href="#" class="btn btn-danger" style="width: 100%; text-align: right;">
+                                    لیست غذاها
+                                    <span class="card-foodList-count">۱۲</span>
+                                </a>
+                                <p class="card-chief-location"><small>ایران، ایران، ایران</small></p>
+                                <!--<div>
+                                    <button class="btn btn-danger" style="width: 100%; text-align: right;">لیست غذاها</button>
+                                    <span class="card-foodList-count">۱۲</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="pagination-nums" class="col-xl-12 col-lg-12 col-md-8 col-sm-6 col-xs-6 mt-4" style="float: right; margin: 0 -30px 0 0; background-color: #fff; width: fit-content">
+                <nav aria-label="...">
+                    <ul class="pagination pagination-sm">
+                        <li class="page-item disabled">
+                            <span class="page-link">قبلی</span>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#">۱</a></li>
+                        <li class="page-item" aria-current="page">
+                            <a href="#" class="page-link">۲</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">۳</a></li>
+                        <li class="page-item"><a class="page-link" href="#">۴</a></li>
+                        <li class="page-item"><a class="page-link" href="#">۵</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">آخر</a>
+                        </li>
+                        <li id="select-item-count" class="page-item">
+                            <select class="form-select page-link" aria-label="Default select example">
+                                <option value="12">۱۲</option>
+                                <option selected value="24">۲۴</option>
+                                <option value="84">۸۴</option>
+                                <option value="168">۱۶۸</option>
+                            </select>
+                        </li>
+                        <li>
+                            <p id="select-item-count-text">آیتم در هر صفحه</p>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-6">
+            <ul>
+                <li><a href="AboutUs"><span class="fas fa-history"> درباره ما</span></a></li>
+                <li><a href="ContactUs"><span class="fas fa-phone"> تماس با ما</span></a></li>
+                <li><a href="OrderGuide"><span class="fas fa-info"> راهنمای سفارش غذا</span></a></li>
+                <li><a href="#"><span class="fas fa-random"> درخواست نمایندگی</span></a></li>
+                <li><a href="AboutUs"><span class="fas fa-history"> درباره ما</span></a></li>
+                <li><a href="ContactUs"><span class="fas fa-phone"> تماس با ما</span></a></li>
+                <li><a href="OrderGuide"><span class="fas fa-info"> راهنمای سفارش غذا</span></a></li>
+                <li><a href="#"><span class="fas fa-random"> درخواست نمایندگی</span></a></li>
+            </ul>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-6">
+            <ul>
+                <li><a href="FoodOrderPage"><span class="fas fa-history"> رزرو غذا</span></a></li>
+                <li><a href="#"><span class="fas fa-phone"> سفارش غذای مهمانی</span></a></li>
+                <li><a href="#"><span class="fas fa-info"> مشاوره پذیرایی از مهمان ها</span></a></li>
+                <li>
+                    <a href="FoodOrderPage"><span class="fas fa-history"> رزرو غذا</span></a></li>
+                <li><a href="#"><span class="fas fa-phone"> سفارش غذای مهمانی</span></a></li>
+                <li><a href="#"><span class="fas fa-info"> مشاوره پذیرایی از مهمان ها</span></a></li>
+            </ul>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-4 hidden-md hidden-sm">
+            <ul class="hidden-lg hidden-md hidden-sm">
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+        <div id="email_form" class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <p><small>برای مطلع شدن از تخفیف های دوره ای، ایمیل خود را وارد نمایید</small></p>
+            <div class="md-form md-outline" style="display: contents">
+                <input type="email" id="emailExample" placeholder="ایمیل"
+                       class="form-control txt_hint email_form_input">
+                <i class="fas fa-envelope prefix"></i>
+            </div>
+            <button class="btn btn-outline-danger">عضویت در خبرنامه<img src="images/email.png"></button>
+        </div>
+        <div id="social-icons" style="float: left;" class="p-2">
+            <a href="#"><img src="images/pintrest.png"></a>
+            <a href="#"><img src="images/linkedin.png"></a>
+            <a href="#"><img src="images/youtube.png"></a>
+            <a href="#"><img src="images/facebook.png"></a>
+            <a href="#"><img src="images/twitter.png"></a>
+            <a href="#"><img src="images/aparat.png"></a>
+            <a href="#"><img src="images/rss.png"></a>
+            <a href="#"><img src="images/whatsapp.png"></a>
+            <a href="#"><img src="images/telegram.png"></a>
+            <a href="#"><img src="images/instagram.png"></a>
+            <a href="#"><img src="images/android.png"></a>
+        </div>
+    </div>
+    <div id="sub-footer">
+        <p><small>طراحی صفر تا صد قالب سایت توسط مهدی حیدرپور قدس</small></p>
+    </div>
+</footer>
+
+<script type="text/javascript">
+    $(function () {
+
+        $(document).on({
+            mouseover: function (event) {
+                $(this).find('.far').addClass('star-over');
+                $(this).prevAll().find('.far').addClass('star-over');
+            },
+            mouseleave: function (event) {
+                $(this).find('.far').removeClass('star-over');
+                $(this).prevAll().find('.far').removeClass('star-over');
+            }
+        }, '.rate');
+
+
+        $(document).on('click', '.rate', function () {
+            if (!$(this).find('.star').hasClass('rate-active')) {
+                $(this).siblings().find('.star').addClass('far').removeClass('fas rate-active');
+                $(this).find('.star').addClass('rate-active fas').removeClass('far star-over');
+                $(this).prevAll().find('.star').addClass('fas').removeClass('far star-over');
+            } else {
+                console.log('has');
+            }
+        });
+
+        $(".btnrating").on('click',(function(e) {
+
+            var previous_value = $("#selected_rating").val();
+
+            var selected_value = $(this).attr("data-attr");
+            $("#selected_rating").val(selected_value);
+
+            $(".selected-rating").empty();
+            $(".selected-rating").html(selected_value);
+
+            for (i = 1; i <= selected_value; ++i) {
+                $("#rating-star-"+i).toggleClass('btn-warning');
+                $("#rating-star-"+i).toggleClass('btn-default');
+            }
+
+            for (ix = 1; ix <= previous_value; ++ix) {
+                $("#rating-star-"+ix).toggleClass('btn-warning');
+                $("#rating-star-"+ix).toggleClass('btn-default');
+            }
+
+        }));
+
+    });
+
+
+</script>
+</body>
+</html>
