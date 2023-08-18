@@ -1,11 +1,15 @@
 # mahdihpg_2nd_major
 
+لینک اجرای پروژه :  https://mahdihpg.github.io/mahdihpg_2nd_major/
+
 پروژه هایی که بعد از یادگیری طراحی سایت با بوت استرپ نوشتم
 
 اگه این قالب به دردت خورد، ممنون میشم از من حمایت مالی کنی
 https://idpay.ir/mahdih99
 
 ______________________________________________________________________________________
+
+for run the project : https://mahdihpg.github.io/mahdihpg_2nd_major/
 
 The projects I wrote after learning website design with Bootstrap
 
