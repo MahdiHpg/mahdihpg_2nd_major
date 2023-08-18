@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2000" height="800" viewBox="0 0 2000 800">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="2000" height="800" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="_2000_x_800" data-name="2000 x 800" clip-path="url(#clip-path)">
+    <g transform="translate(-818 -330)">
+      <g id="Component_1_3" data-name="Component 1 – 3" transform="translate(818 330)">
+        <g id="Rectangle_1" data-name="Rectangle 1" fill="#ccc" stroke="#888" stroke-width="1">
+          <rect width="2000" height="800" stroke="none"/>
+          <rect x="0.5" y="0.5" width="1999" height="799" fill="none"/>
+        </g>
+        <text id="_2000_x_800-2" data-name="2000 x 800" transform="translate(1000 417)" fill="#969696" font-size="40" font-family="SegoeUI, Segoe UI"><tspan x="-95.605" y="0">2000 x 800</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

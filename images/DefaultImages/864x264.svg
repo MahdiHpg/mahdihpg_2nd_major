@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="864" height="264" viewBox="0 0 864 264">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="864" height="264" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
+    <g transform="translate(-1121 302)">
+      <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(1121 -302)">
+        <g id="Rectangle_1" data-name="Rectangle 1" fill="#ccc" stroke="#888" stroke-width="1">
+          <rect width="864" height="264" stroke="none"/>
+          <rect x="0.5" y="0.5" width="863" height="263" fill="none"/>
+        </g>
+        <text id="_864_x_264" data-name="864 x 264" transform="translate(432 149)" fill="#969696" font-size="40" font-family="SegoeUI, Segoe UI"><tspan x="-84.824" y="0">864 x 264</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
